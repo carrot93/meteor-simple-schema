@@ -418,6 +418,10 @@ function getAutoValues(mDoc, isModifier, extendedAutoValueContext) {
   });
 }
 
+function SimpleSchema(){
+  this._schema={}
+}
+
 //exported
 SimpleSchema = function(schemas, options) {
   var self = this;

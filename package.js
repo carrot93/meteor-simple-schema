@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'aldeed:simple-schema',
+  name: 'shjiaye:simple-schema',
   summary: 'A simple schema validation object with reactivity. Used by collection2 and autoform.',
   version: '1.5.4',
-  git: 'https://github.com/aldeed/meteor-simple-schema.git'
+  git: 'https://github.com/carrot93/meteor-simple-schema.git'
 });
 
 Package.onUse(function (api) {
@@ -28,7 +28,7 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function (api) {
-  api.use('aldeed:simple-schema');
+  api.use('shjiaye:simple-schema');
   api.use('tinytest@1.0.0');
   api.use('test-helpers@1.0.0');
   api.use('underscore@1.0.0');
